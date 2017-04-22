@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head ng-app="app">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example Code Structure</title>
+    <link rel="stylesheet" href="style/app.css">
+</head>
+<body>
+    <div class="container">
+        <div ui-view></div>
+    </div>
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/main/main.module.js"></script>
+    <script src="app/main/main.routes.js"></script>
+    <script src="app/main/main.controller.js"></script>
+    <script src="app/about/about.module.js"></script>
+    <script src="app/about/about.routes.js"></script>
+    <script src="app/about/about.controller.js"></script>
+</body>
+</html>
